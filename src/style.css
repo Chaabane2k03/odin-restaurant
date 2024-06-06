@@ -1,0 +1,125 @@
+body{
+    background-image: url(../images/backodin_img.avif);
+    background-size: cover;
+    background-position: center; 
+    height: 95vh;
+}
+
+footer{
+   color : white;
+   font-family: "Nunito Sans", sans-serif;
+   font-size : 20px;
+   position : absolute;
+   bottom : 0;
+   left : 25% 
+}
+
+.home-welcome{
+    position : absolute;
+    bottom : 50%;
+    left: 5%;
+    font-size: 60px;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+
+}
+
+.about-title{
+    position : absolute;
+    bottom : 60%;
+    left:25%;
+    font-size : 40px;
+    font-family: "Nunito Sans", sans-serif;
+    color : white;
+}
+
+.home-p{
+    font-family: "Dancing Script", cursive;
+    color : white;
+    position : absolute;
+    bottom : 40%;
+    left : 30%;
+    font-size: 30px;
+    
+}
+
+.about-p{
+    font-family: "Nunito Sans", sans-serif;
+    color : white;
+    position : absolute;
+    max-width: 60%;
+    font-size: 32px;
+    font-weight: 100;
+    top : 35%;
+    left : 2%;
+}
+nav {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f8b400;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #f8a100;
+}
+
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-title {
+    font-size: 40px;
+    color :white ;
+    position: absolute;
+    left : 25%;
+    top : 15%;
+    font-family: "Nunito Sans", sans-serif;;
+
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+    position: absolute;
+    left : 10%;
+    top : 30%
+}
+
+.menu-item {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item span {
+    font-weight: bold;
+    color: #f8b400;
+}
